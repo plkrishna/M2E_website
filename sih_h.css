@@ -1,0 +1,27 @@
+body{
+    background:linear-gradient(rgb(100,200,325,0.5),rgb(100,100,325,0.7));
+}
+table{
+    margin: auto;
+    margin-top: 7.5%;
+    border: 2px solid black;
+    border-radius: 0rem 2rem 0rem 2rem;
+}
+td{
+    text-align: center;
+}
+button{
+    height:50px;
+    width: 100px;
+    color: whitesmoke;
+    background: rgb(100,100,100,0.4);
+    border: solid black;
+    border-radius: 2rem;
+}
+input,select{
+    height: 40px;
+    width: 80%;
+    padding:1%;
+    border:solid white;
+    border-radius: 2rem;
+}

@@ -1,0 +1,33 @@
+body{    
+    background-image: url(background.jpg);
+    color:white;
+}
+table{
+    margin: auto;
+    margin-top: 7.5%;
+    border: 2px solid black;
+    border-radius: 0rem 2rem 0rem 2rem;
+    background-color: rgb(1,1,1,0.6);
+}
+td{
+    text-align: center;
+}
+button{
+    height:50px;
+    width: 100px;
+    color: whitesmoke;
+    background: rgb(100,100,100,0.4);
+    border: solid black;
+    border-radius: 2rem;
+}
+button:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+input,select{
+    height: 40px;
+    width: 80%;
+    padding:1%;
+    border:solid white;
+    border-radius: 2rem;
+}

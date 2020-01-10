@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+.top-nav {
+    display: flex;
+    margin: 0 100px 0 220px;
+    justify-content: space-evenly;
+    
+}
+#margin {
+    border: 5px solid black;
+    background-color: midnightblue;
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0 30px;
+    padding: 21px;
+}
+.side-bar {
+    width: 200px;
+    margin-left: 0;
+    padding-left: 80px;
+    justify-content: right;
+    text-align: right;
+    background-color: lightgray;
+    height: 60rem;
+}
+.side-bar a,#namee {
+    display: flex;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+#namee {
+    margin-left: 20px;
+}
+.top-nav a:hover {
+    background-color: black;
+}
+.side-bar a:hover {
+    background-color: white;
+}
+button:hover {
+    background-color: rgba(25, 25, 112, 0.37);
+    border : 2px solid midnightblue;
+}
+img {
+    margin-top: 30px;
+    margin-right: 35px;
+}
+.side {
+    display: flex;
+}
+.page {
+    display: flex;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+hr {
+    margin-left: 15px;
+}
+.whole_t {
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 110%;
+    border: 1px solid lightgray;
+    border-radius: 8px 8px 0px 0px;
+}
+textarea:active {
+    border: 1px solid lightgray;
+}
+button {
+    background-color: midnightblue;
+    color: white;
+    border: 2px solid midnightblue;
+}
+.text_b {
+    margin: 10px;
+    width: 1044px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: flex-end;
+    display: flex;
+}
+button {
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+.text_b a {
+    text-decoration: none;
+    color: black;
+}
+.whole_t {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+#text_b_a {
+    margin-right: 20px;
+}
+.txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    width: 1044px;
+    font-size: 130%;
+}
+#ans {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: midnightblue;
+    margin-left: 10px;
+}

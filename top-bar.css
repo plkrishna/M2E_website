@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+.top-nav a:hover {
+    background-color: black;
+}
+.top-nav {
+    display: flex;
+    margin: 0 100px 0 220px;
+    justify-content: space-evenly;
+}
+.margin {
+    border: 5px solid black;
+    background-color: midnightblue;
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0 30px;
+    padding: 21px;
+}
